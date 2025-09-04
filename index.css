@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --primary-color:#fe6a00;
+    --text-color:white;
+    --shadow-color:black;
+}
+nav{
+    color: var(--text-color);
+    font-size: larger;
+    font-family: "jua", sans-serif;
+    background-color:var(--primary-color);
+    cursor: pointer;
+}
+.proimg{
+    margin-top: 13px;
+    margin-left: 5px;
+}
+.treats{
+    color:black;
+}
+.black{
+    color:var(--primary-color);
+}
+.maintxt{
+    margin-top:90px ;
+}
+.buybtn{
+    border:none;
+    border-radius: 5px;
+    color: var(--text-color);
+    font-family:"jua", sans-serif;
+    background-color: var(--primary-color);
+}
+.buybtn:hover{
+    background-color:black;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.20);
+}
+.iceimg{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.navitems {
+    color: white;
+    font-size: large;
+    font-family: "jua", sans-serif;
+    margin-top:12px;
+    display:flex;
+    gap: 55px;
+}
+.navpages{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: "jua", sans-serif;
+}
+.navitems a:hover{
+    color: black;
+    transform: scale(1.10);
+    text-shadow:3px 3px 30px black;
+    transition: 0.3s ease-in-out;
+}
+.card{
+    text-align: center;
+    font-family:"jua", sans-serif;
+    box-shadow: 2px 2px 6px white;
+}
+.card:hover{
+    display:flex;
+    box-shadow: 2px 2px 30px var(--primary-color);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.03);
+    
+}
+.cardimg{
+    border-radius: 5px;
+}
+.falserate{
+    text-decoration:line-through;
+}
+.itemimg{
+    border-radius: 40px;
+    box-shadow:2px 2px 30px #fe6a00;
+}
+.disimg{
+      align-items: center;
+      border-radius: 40px;
+}
+.dispara{
+    text-align: center;
+}
+.distitle{
+    text-align:center ;
+}
+footer{
+    padding:10px;
+    margin-top:5px;
+    background-color: var(--primary-color);
+    color:var(--text-color);
+    font-family: "jua", sans-serif;
+}
+.footerlogo{
+ margin-left: 40px ;
+}
+.listitem{
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled{
+    font-size: smaller;
+}
+.list-unstyled a:hover
+{
+    color:black ;
+    text-shadow:3px 3px 30px black;
+    transition: 0.3s ease-in-out;
+    font-size: large;
+}
+
+
+/* menu page only */
+
+.menudiscription{
+    text-align: center;
+}
+
+.carouselimg{
+   border-radius: 60px; 
+   height: 500px;
+   width: 850px;
+   margin-left: 30px;
+}
+.Newarrival{
+    margin-left: 370px;
+}
+.Newarrival1{
+    margin-left: 300px;
+}
+
+/* Aboutus page only */
+
